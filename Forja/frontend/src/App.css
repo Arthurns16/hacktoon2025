@@ -1,0 +1,144 @@
+
+
+
+
+body, #root, .charcoal-bg {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: #232323;
+  color: #f3f3f3;
+}
+
+.charcoal-main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.charcoal-panel {
+  background: #232323;
+  border: 1.5px solid #353535;
+  border-radius: 14px;
+  box-shadow: 0 2px 24px 0 #000a;
+  padding: 2.5rem 2rem 2rem 2rem;
+  min-width: 340px;
+  max-width: 420px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1.2rem;
+}
+
+.charcoal-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 0.5em 0;
+  color: #fafafa;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.charcoal-upload-btn {
+  display: inline-block;
+  background: #292929;
+  color: #fafafa;
+  font-weight: 600;
+  padding: 0.8em 1.5em;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  border: 1.5px solid #353535;
+  transition: background 0.15s, border 0.15s;
+  position: relative;
+  overflow: hidden;
+}
+.charcoal-upload-btn input[type="file"] {
+  display: none;
+}
+.charcoal-upload-btn span {
+  pointer-events: none;
+}
+.charcoal-upload-btn:hover {
+  background: #181818;
+  border: 1.5px solid #444;
+}
+
+.charcoal-pdf-preview {
+  margin-top: 0.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #181818;
+  border: 1.5px solid #353535;
+  min-height: 180px;
+  max-height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.charcoal-pdf-placeholder {
+  color: #555;
+  font-size: 1rem;
+  text-align: center;
+  width: 100%;
+  opacity: 0.7;
+}
+
+.charcoal-extract-btn {
+  background: #181818;
+  color: #fafafa;
+  font-weight: 700;
+  border: 1.5px solid #353535;
+  border-radius: 7px;
+  padding: 0.8em 1.5em;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1.2rem;
+  transition: background 0.15s, border 0.15s;
+}
+.charcoal-extract-btn:disabled {
+  background: #232323;
+  color: #888;
+  cursor: not-allowed;
+  border: 1.5px solid #353535;
+}
+.charcoal-extract-btn:hover:not(:disabled) {
+  background: #292929;
+  border: 1.5px solid #444;
+}
+
+.charcoal-extracted-info {
+  margin-top: 1.2rem;
+  background: #181818;
+  border: 1.5px solid #353535;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: left;
+  max-height: 220px;
+  overflow: auto;
+  font-size: 1rem;
+  color: #fafafa;
+}
+.charcoal-extracted-info h2 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: #fafafa;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.charcoal-error-msg {
+  color: #ff6b6b;
+  margin-top: 0.3rem;
+  font-size: 0.98rem;
+  font-weight: 600;
+  background: #232323;
+  border-radius: 6px;
+  padding: 0.4em 1em;
+  display: inline-block;
+  border: 1.5px solid #ff6b6b44;
+}
