@@ -1,0 +1,1 @@
+here we can compute LLMs accuracy in a task by manual checking 50 generated samples
