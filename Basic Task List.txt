@@ -1,0 +1,10 @@
+Tasks list:
+
+Data mining, like PDFs text extraction, pappers dowload
+LLMs to get make datasets by using data that was mined
+LLMs evaluation, how much correct data was generated in the LLMs generated datasets
+Models training using LLMs generated data in advanced materials
+Models evaluation, make some slides about the results
+Video, fill form, make the final artifacts 
+
+You can choose any task and present your work. We will mix all work in the final 2 minutes video.
