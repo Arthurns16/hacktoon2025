@@ -1,0 +1,5 @@
+gpt-oss:120B performed better than Mistral Large 124B, more details soon.
+
+
+gpt-oss:120B best model, manual checking score : 24/25
+mistral score: 19/25
